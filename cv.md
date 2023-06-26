@@ -10,3 +10,28 @@ I'm 28 years old. I work as a deputy chief of planning and Economic Department i
 * CSS
 * JS
 * GIT
+## Code example
+```
+let totalPages = 6; 
+let consumptionTotal = 0; 
+let consumptionPerPage = 70; 
+let economyMode = true;
+
+for (let page = 1; page <= totalPages; page++) {
+  document.print(page);
+
+  if (economyMode && page > 3) {
+    consumptionTotal += consumptionPerPage * 0.5;
+  } else {
+    consumptionTotal += consumptionPerPage;
+  };
+  
+  console.log(consumptionTotal);
+};
+```
+## Education
+* Belarussian-Russian uneversity, construction faculty 
+## Languages
+* Belarussian - fluently;
+* English - B2;
+* Russian - native speaker;
